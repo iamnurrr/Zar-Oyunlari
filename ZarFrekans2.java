@@ -17,6 +17,7 @@ public class ZarFrekans2 {
 
             if (zar1 % 2 == 0 && zar2 == zar1) {
                 System.out.println("Oyun bitti !!\n Gelen zarlar : 1.zar: " + zar1 + "; 2.zar: " + zar2);
+                            frekans[zar2+zar1-2]++;
                 break;
 
             }
